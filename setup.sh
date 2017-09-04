@@ -19,6 +19,7 @@ sudo apt-get install xcb \
      zathura \
      unclutter \
      htop \
+     emacs \
 
 mkdir -p ~/install_temp
 cd  ~/install_temp
