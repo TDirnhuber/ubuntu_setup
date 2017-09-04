@@ -1,4 +1,4 @@
-#! bin/bash
+#! /bin/bash
 sudo apt-get install xcb \
      libxcb-util0-dev \
      libxcb-ewmh-dev \
@@ -20,6 +20,7 @@ sudo apt-get install xcb \
      unclutter \
      htop \
      emacs \
+     hsetroot \
 
 mkdir -p ~/install_temp
 cd  ~/install_temp
