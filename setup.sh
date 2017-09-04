@@ -15,12 +15,12 @@ sudo apt-get install xcb \
      mpd \
      mpc \
      rvxt-unicode-256color \
-     ##texlive \
      zathura \
      unclutter \
      htop \
      emacs \
      hsetroot \
+     ##texlive \
 
 mkdir -p ~/install_temp
 cd  ~/install_temp
