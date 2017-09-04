@@ -14,9 +14,11 @@ sudo apt-get install xcb \
      libx11-xcb-dev \
      mpd \
      mpc \
-     texlive \
+     rvxt-unicode-256color \
+     ##texlive \
      zathura \
      unclutter \
+     htop \
 
 mkdir -p ~/install_temp
 cd  ~/install_temp
@@ -25,12 +27,14 @@ git clone https://github.com/baskerville/sxhkd.git
 git clone https://github.com/baskerville/sutils.git
 git clone https://github.com/baskerville/xtitle.git
 git clone https://github.com/baskerville/xdo.git
+git clone https://github.com/LemonBoy/bar.git
 
 cd bspwm/ && make && sudo make install
 cd ../sxhkd/ && make && sudo make install
 cd ../sutils/ && make && sudo make install
 cd ../xtitle/ && make && sudo make install
 cd ../xdo/ && make && sudo make install
+cd ../bar/ && make && sudo make install
 
 cd ~ 
 git clone https://github.com/TDirnhuber/dotfiles.git
