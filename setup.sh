@@ -14,13 +14,12 @@ sudo apt-get install xcb \
      libx11-xcb-dev \
      mpd \
      mpc \
-     rvxt-unicode-256color \
+     rxvt-unicode-256color \
      zathura \
      unclutter \
      htop \
      emacs \
      hsetroot \
-     ##texlive \
 
 mkdir -p ~/install_temp
 cd  ~/install_temp
@@ -37,9 +36,8 @@ cd ../sutils/ && make && sudo make install
 cd ../xtitle/ && make && sudo make install
 cd ../xdo/ && make && sudo make install
 cd ../bar/ && make && sudo make install
-cd ..
-rm -rf bspwm/ sxhkd/ xtitle/ xdo/ bar/
 cd ~ 
+rm -rf ~/install_temp
 git clone https://github.com/TDirnhuber/dotfiles.git
 cd dotfiles
 ./mksymlnks
