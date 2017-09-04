@@ -37,7 +37,8 @@ cd ../sutils/ && make && sudo make install
 cd ../xtitle/ && make && sudo make install
 cd ../xdo/ && make && sudo make install
 cd ../bar/ && make && sudo make install
-
+cd ..
+rm -rf bspwm/ sxhkd/ xtitle/ xdo/ bar/
 cd ~ 
 git clone https://github.com/TDirnhuber/dotfiles.git
 cd dotfiles
