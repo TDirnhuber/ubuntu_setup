@@ -1,3 +1,4 @@
+#! bin/bash
 sudo apt-get install xcb \
      libxcb-util0-dev \
      libxcb-ewmh-dev \
@@ -36,7 +37,7 @@ git clone https://github.com/TDirnhuber/dotfiles.git
 cd dotfiles
 ./mksymlnks
 sudo systemctl set-default multi-user.target
-reboot
+#reboot
 
 
 
